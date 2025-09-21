@@ -24,7 +24,7 @@
 ---
 
 ## 🎥 Demo
-<video src="screenshots/demo.webm" controls width="300"></video>
+<video src="screenshots/demo.webm" controls width="400"></video>
 
 ---
 
