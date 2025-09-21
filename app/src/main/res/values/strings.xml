@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MindHue</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <string-array name="activities_array">
+        <item>None</item>
+        <item>Work</item>
+        <item>Study</item>
+        <item>Gym</item>
+        <item>Family</item>
+        <item>Friends</item>
+        <item>Travel</item>
+        <item>Hobby</item>
+        <item>Health</item>
+    </string-array>
+</resources>

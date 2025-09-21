@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:padding="16dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/moodGroup"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/moodVeryHappy" android:text="😄 Very Happy" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+            <RadioButton android:id="@+id/moodCalm"       android:text="😌 Calm" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+            <RadioButton android:id="@+id/moodNeutral"    android:text="😐 Neutral" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+            <RadioButton android:id="@+id/moodStressed"   android:text="😣 Stressed" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+            <RadioButton android:id="@+id/moodSad"        android:text="😔 Sad" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/note"
+            android:hint="Add a short note (optional)"
+            android:maxLength="150"
+            android:inputType="textCapSentences|textMultiLine"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/activitySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/saveBtn" android:text="Save"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

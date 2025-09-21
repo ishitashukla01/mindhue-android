@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:padding="16dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <!-- Use Material Switch to avoid style/theme crashes -->
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/lockSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enable app lock"
+            app:useMaterialThemeColors="true"/>
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/bioSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allow fingerprint unlock"
+            android:layout_marginTop="8dp"
+            app:useMaterialThemeColors="true"/>
+
+        <EditText
+            android:id="@+id/pinNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Set/Change PIN (4–6 digits)"
+            android:inputType="numberPassword"
+            android:maxLength="6"/>
+
+        <Button
+            android:id="@+id/savePinBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save PIN"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>
