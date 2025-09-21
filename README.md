@@ -24,7 +24,9 @@
 ---
 
 ## 🎥 Demo
-<video src="screenshots/demo.webm" controls width="400"></video>
+
+![Demo](screenshots/demo.gif)
+
 
 ---
 
